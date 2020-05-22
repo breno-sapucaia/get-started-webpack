@@ -1,0 +1,30 @@
+{
+  "name": "ze-delivery-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "production": "webpack --progress -p"
+  },
+  "dependencies": {
+    "axios": "0.15.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.22.1",
+    "babel-loader": "6.2.10",
+    "babel-plugin-transform-object-rest-spread": "6.22.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "style-loader": "0.13.1",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
